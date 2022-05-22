@@ -36,7 +36,7 @@ module.exports = {
   ],
   output: {
     path: `${__dirname}/dist`,
-    filename: "[name].js",
+    filename: "js/[name].js",
     clean: true,
     publicPath: "/bluebells/",
   },
@@ -49,18 +49,27 @@ module.exports = {
       {
         test: /\.css$/i,
         use: ["style-loader", "css-loader"],
+        generator: {
+          filename: "css/[hash][ext]",
+        },
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "img/[hash][ext]",
+        },
       },
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/i,
         type: "asset/resource",
+        generator: {
+          filename: "fonts/[hash][ext]",
+        },
       },
       {
         test: /\.html$/i,
-        loader: "html-loader",
+        use: ["html-loader"],
         // options: {
         //   // Disables attributes processing
         //   sources: false,
@@ -68,46 +77,28 @@ module.exports = {
       },
     ],
   },
-  optimization: {
-    minimizer: [
-      new ImageMinimizerPlugin({
-        generator: [
-          {
-            // You can apply generator using `?as=webp-100-50`, you can use any name and provide more options
-            preset: "webp",
-            implementation: ImageMinimizerPlugin.squooshGenerate,
-            options: {
-              encodeOptions: {
-                resize: {
-                  enabled: true,
-                  width: 100,
-                  height: 50,
-                },
-                webp: {
-                  quality: 90,
-                },
-              },
-            },
-          },
-          {
-            // You can apply generator using `?as=webp-100-50`, you can use any name and provide more options
-            preset: "webp-400-300",
-            implementation: ImageMinimizerPlugin.squooshGenerate,
-            options: {
-              encodeOptions: {
-                resize: {
-                  enabled: true,
-                  width: 100,
-                  height: 50,
-                },
-                webp: {
-                  quality: 90,
-                },
-              },
-            },
-          },
-        ],
-      }),
-    ],
-  },
+  // optimization: {
+  //   minimizer: [
+  //     new ImageMinimizerPlugin({
+  //       generator: [
+  //         {
+  //           // You can apply generator using `?as=webp-100-50`, you can use any name and provide more options
+  //           preset: "jpg400",
+  //           implementation: ImageMinimizerPlugin.squooshGenerate,
+  //           options: {
+  //             encodeOptions: {
+  //               resize: {
+  //                 enabled: true,
+  //                 width: 100,
+  //               },
+  //               webp: {
+  //                 quality: 90,
+  //               },
+  //             },
+  //           },
+  //         },
+  //       ],
+  //     }),
+  //   ],
+  // },
 };

@@ -19305,7 +19305,7 @@ ul.gallery_agile li {
 /*--//gallery--*/
 /*--/video--*/
 .w3l-index5 {
-    background: url("../images/homeBackground/bg3.jpg?webp") no-repeat center;
+    background: url("../images/homeBackground/bg3.jpg?") no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -19438,7 +19438,7 @@ p.vhny-para {
 /*--/inner-banner--*/
 .inner-banner {
     background: url(
-        https://source.unsplash.com/raxI_EcyfGw/1200x400
+       ../images/background.jpg
     ) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -19543,7 +19543,7 @@ p.abinfo-para {
 }
 
 .subscribe-content-right.two {
-    background: url(https://source.unsplash.com/K9pU2u0Z5WU/400x600) no-repeat center;
+    background: url(../images/bellacasa.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -19864,7 +19864,7 @@ a.call-style i {
 /*--//services--*/
 /*--//inner-banner--*/
 .w3l-testimonials .cusrtomer-layout {
-    background: url(https://source.unsplash.com/hZE6VQVbMco) no-repeat center;
+    background: url(../images/background.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -20177,7 +20177,7 @@ a.call-style i {
 }
 
 .subscribe-content-right {
-    background: url(https://source.unsplash.com/K9pU2u0Z5WU) no-repeat center;
+    background: url(../images/background3.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
