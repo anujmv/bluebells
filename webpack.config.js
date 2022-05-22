@@ -3,7 +3,7 @@ const HtmlWebpackPlugin = require("html-webpack-plugin");
 const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
 module.exports = {
   entry: ["./src/index.js"],
-  watch: true,
+  // watch: true,
   mode: "development",
   devServer: {
     static: "./dist",
