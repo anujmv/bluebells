@@ -1,6 +1,6 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
-const ImageMinimizerPlugin = require("image-minimizer-webpack-plugin");
+const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 module.exports = {
   entry: ["./src/index.js"],
   // watch: true,
@@ -33,6 +33,7 @@ module.exports = {
       template: "./src/contact.html",
       filename: "contact.html", //relative to root of the application
     }),
+    new MiniCssExtractPlugin(),
   ],
   output: {
     path: `${__dirname}/dist`,
@@ -48,10 +49,7 @@ module.exports = {
     rules: [
       {
         test: /\.css$/i,
-        use: ["style-loader", "css-loader"],
-        generator: {
-          filename: "css/[hash][ext]",
-        },
+        use: [MiniCssExtractPlugin.loader, "css-loader"],
       },
       {
         test: /\.(png|svg|jpg|jpeg|gif)$/i,
