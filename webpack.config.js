@@ -13,24 +13,28 @@ module.exports = {
       hash: true,
       title: "Home",
       template: "./src/index.html",
+      inject: "body",
       filename: "index.html", //relative to root of the application
     }),
     new HtmlWebpackPlugin({
       hash: true,
       title: "About",
       template: "./src/about.html",
+      inject: "body",
       filename: "about.html", //relative to root of the application
     }),
     new HtmlWebpackPlugin({
       hash: true,
       title: "About",
       template: "./src/our-spaces.html",
+      inject: "body",
       filename: "our-spaces.html", //relative to root of the application
     }),
     new HtmlWebpackPlugin({
       hash: true,
       title: "About",
       template: "./src/contact.html",
+      inject: "body",
       filename: "contact.html", //relative to root of the application
     }),
     new MiniCssExtractPlugin(),
