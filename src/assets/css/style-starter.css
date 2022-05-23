@@ -18829,26 +18829,26 @@ a.dropdown-item.active {
 }
 
 .w3l-main-slider .banner-top1{
-    background: url("../images/homeBackground/bg1.jpg?webp") no-repeat center;
+    background: url("../images/homeBackground/bg1.jpg") no-repeat center;
     background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-    background: url("../images/homeBackground/bg2.jpg?webp") no-repeat center;
+    background: url("../images/homeBackground/bg2.jpg") no-repeat center;
     background-size: cover;
 }
 
 .w3l-main-slider .banner-top3 {
-    background: url("../images/homeBackground/bg3.jpg?webp") no-repeat center;
+    background: url("../images/background.jpg") no-repeat center;
     background-size: cover;
 }
 
 .w3l-main-slider .banner-top4 {
-    background: url("../images/homeBackground/bg4.jpg?webp") no-repeat center;
+    background: url("../images/homeBackground/bg4.jpg") no-repeat center;
     background-size: cover;
 }
 .w3l-main-slider .banner-top5 {
-    background: url("../images/homeBackground/bg5.jpg?webp") no-repeat center;
+    background: url("../images/homeBackground/bg5.jpg") no-repeat center;
     background-size: cover;
 }
 
@@ -19305,7 +19305,7 @@ ul.gallery_agile li {
 /*--//gallery--*/
 /*--/video--*/
 .w3l-index5 {
-    background: url("../images/homeBackground/bg3.jpg?") no-repeat center;
+    background: url("../images/background4.jpg") no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
