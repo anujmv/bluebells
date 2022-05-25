@@ -17800,8 +17800,8 @@ fieldset:disabled .btn {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(/bluebells/fonts/98f20b9ec79b2fee02a3.eot);
-    src: url(/bluebells/fonts/98f20b9ec79b2fee02a3.eot?#iefix) format("embedded-opentype"), url(/bluebells/fonts/6e63bd22128f27b83f22.woff2) format("woff2"), url(/bluebells/fonts/5f63cb7f47b6ea89773b.woff) format("woff"), url(/bluebells/fonts/330e879afe4a0abb35f2.ttf) format("truetype"), url(/bluebells/img/991c1c761fc31f9c3252.svg#fontawesome) format("svg");
+    src: url(/bluebellsv4/fonts/98f20b9ec79b2fee02a3.eot);
+    src: url(/bluebellsv4/fonts/98f20b9ec79b2fee02a3.eot?#iefix) format("embedded-opentype"), url(/bluebellsv4/fonts/6e63bd22128f27b83f22.woff2) format("woff2"), url(/bluebellsv4/fonts/5f63cb7f47b6ea89773b.woff) format("woff"), url(/bluebellsv4/fonts/330e879afe4a0abb35f2.ttf) format("truetype"), url(/bluebellsv4/img/991c1c761fc31f9c3252.svg#fontawesome) format("svg");
 }
 
 .fab {
@@ -17814,8 +17814,8 @@ fieldset:disabled .btn {
     font-style: normal;
     font-weight: 400;
     font-display: block;
-    src: url(/bluebells/fonts/62a07ffeac77696f17ef.eot);
-    src: url(/bluebells/fonts/62a07ffeac77696f17ef.eot?#iefix) format("embedded-opentype"), url(/bluebells/fonts/2c154b0f8c0d8d166162.woff2) format("woff2"), url(/bluebells/fonts/ea5a41ec4a24ce93298e.woff) format("woff"), url(/bluebells/fonts/ac2367644e559de4ff33.ttf) format("truetype"), url(/bluebells/img/f3187c7462849ed261a8.svg#fontawesome) format("svg");
+    src: url(/bluebellsv4/fonts/62a07ffeac77696f17ef.eot);
+    src: url(/bluebellsv4/fonts/62a07ffeac77696f17ef.eot?#iefix) format("embedded-opentype"), url(/bluebellsv4/fonts/2c154b0f8c0d8d166162.woff2) format("woff2"), url(/bluebellsv4/fonts/ea5a41ec4a24ce93298e.woff) format("woff"), url(/bluebellsv4/fonts/ac2367644e559de4ff33.ttf) format("truetype"), url(/bluebellsv4/img/f3187c7462849ed261a8.svg#fontawesome) format("svg");
 }
 
 .far {
@@ -17828,8 +17828,8 @@ fieldset:disabled .btn {
     font-style: normal;
     font-weight: 900;
     font-display: block;
-    src: url(/bluebells/fonts/6606667d9800a27eb8b5.eot);
-    src: url(/bluebells/fonts/6606667d9800a27eb8b5.eot?#iefix) format("embedded-opentype"), url(/bluebells/fonts/3eb06c702e27fb110194.woff2) format("woff2"), url(/bluebells/fonts/f4f93856730733912b1e.woff) format("woff"), url(/bluebells/fonts/915a0b79c22a1c1f64da.ttf) format("truetype"), url(/bluebells/img/0454203f26b33fc02e2b.svg#fontawesome) format("svg");
+    src: url(/bluebellsv4/fonts/6606667d9800a27eb8b5.eot);
+    src: url(/bluebellsv4/fonts/6606667d9800a27eb8b5.eot?#iefix) format("embedded-opentype"), url(/bluebellsv4/fonts/3eb06c702e27fb110194.woff2) format("woff2"), url(/bluebellsv4/fonts/f4f93856730733912b1e.woff) format("woff"), url(/bluebellsv4/fonts/915a0b79c22a1c1f64da.ttf) format("truetype"), url(/bluebellsv4/img/0454203f26b33fc02e2b.svg#fontawesome) format("svg");
 }
 
 .fa,
@@ -18827,26 +18827,26 @@ a.dropdown-item.active {
 }
 
 .w3l-main-slider .banner-top1{
-    background: url(/bluebells/img/7c592cd65cad378915ad.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/7c592cd65cad378915ad.jpg) no-repeat center;
     background-size: cover;
 }
 
 .w3l-main-slider .banner-top2 {
-    background: url(/bluebells/img/2a768839f4d254a6d04e.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/2a768839f4d254a6d04e.jpg) no-repeat center;
     background-size: cover;
 }
 
 .w3l-main-slider .banner-top3 {
-    background: url(/bluebells/img/7764323e3d8a60f59fb2.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/7764323e3d8a60f59fb2.jpg) no-repeat center;
     background-size: cover;
 }
 
 .w3l-main-slider .banner-top4 {
-    background: url(/bluebells/img/776220036b9e352bbd08.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/776220036b9e352bbd08.jpg) no-repeat center;
     background-size: cover;
 }
 .w3l-main-slider .banner-top5 {
-    background: url(/bluebells/img/49d879b8609a1ef93569.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/49d879b8609a1ef93569.jpg) no-repeat center;
     background-size: cover;
 }
 
@@ -19303,7 +19303,7 @@ ul.gallery_agile li {
 /*--//gallery--*/
 /*--/video--*/
 .w3l-index5 {
-    background: url(/bluebells/img/20d52b9cea9da5870125.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/20d52b9cea9da5870125.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -19436,7 +19436,7 @@ p.vhny-para {
 /*--/inner-banner--*/
 .inner-banner {
     background: url(
-       /bluebells/img/7764323e3d8a60f59fb2.jpg
+       /bluebellsv4/img/7764323e3d8a60f59fb2.jpg
     ) no-repeat center;
     background-size: cover;
     -webkit-background-size: cover;
@@ -19541,7 +19541,7 @@ p.abinfo-para {
 }
 
 .subscribe-content-right.two {
-    background: url(/bluebells/img/795be2816b0fc3523329.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/795be2816b0fc3523329.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -19862,7 +19862,7 @@ a.call-style i {
 /*--//services--*/
 /*--//inner-banner--*/
 .w3l-testimonials .cusrtomer-layout {
-    background: url(/bluebells/img/7764323e3d8a60f59fb2.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/7764323e3d8a60f59fb2.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
@@ -20175,7 +20175,7 @@ a.call-style i {
 }
 
 .subscribe-content-right {
-    background: url(/bluebells/img/52b07a2d73e0b7212b56.jpg) no-repeat center;
+    background: url(/bluebellsv4/img/52b07a2d73e0b7212b56.jpg) no-repeat center;
     -ms-background-size: cover;
     background-size: cover;
     z-index: 0;
