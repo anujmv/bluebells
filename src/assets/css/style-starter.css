@@ -17864,7 +17864,8 @@ fieldset:disabled .btn {
 }
 
 :root {
-    --primary-color: #FFC300;
+    /* --primary-color: #FFC300; */
+    --primary-color: #bbab79;
     --secondary-color: #e66306;
     --font-color: #666;
     --bg-color: #fff;
@@ -17879,8 +17880,8 @@ fieldset:disabled .btn {
     --iframe-filter: grayscale(0%);
     --bg-grey: #f6f6f6;
     --bg-lightgrey: #f1f3f8;
-    --layer: rgb(6 1 14 / 58%);
-    --layer1: rgb(6 1 14 / 70%);
+    --layer: rgb(13 73 102 / 58%);
+    --layer1: rgb(13 73 102 / 90%);
     --footer-bg: #020202;
     --footer-bglight: #272d3a;
 }
@@ -18371,45 +18372,47 @@ input:checked + .mode-container i.gg-moon {
 }
 
 .main-top {
-    display: grid;
-    grid-template-columns: 5fr 1fr;
-    grid-gap: 20px 20px;
+    display: flex;
     align-items: center;
+    font-size: 14px;
 }
+
+
 
 .main-top p {
     margin: 0;
     padding: 0;
-    font-size: 15px;
+    font-size: 14px;
     line-height: 26px;
     text-transform: capitalize;
 }
 
 .info-icon {
     text-align: center;
+    margin-right: 10px;
 }
 
 .main-top .info-icon span {
-    font-size: 34px;
+    font-size: 13px;
     color: var(--primary-color);
     text-align: center;
     margin-top: 8px;
 }
 
 .info-top-gridshny {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-gap: 10px 20px;
+    display: flex;
+   
+   
 }
 
 .info-grid {
-    display: grid;
-    grid-template-columns: 1fr 6fr;
-    grid-gap: 0px 10px;
+   display: flex;
+   margin-left: 20px;
 }
 
 .top-header-right ul li {
     display: inline-block;
+   
 }
 
 .top-header-right ul li a {
@@ -18861,7 +18864,7 @@ a.dropdown-item.active {
     left: 0;
     right: 0;
     z-index: -1;
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 25%, rgba(0, 0, 0, 0) 35%, rgba(0, 0, 0, 1) 100%);
+    background: linear-gradient(to bottom, rgba(13,73,102,1) 0%, rgba(13,73,102,0.9) 15%,rgba(13,73,102,0) 45%, rgba(13,73,102,0) 55%, rgba(13,73,102,0.7) 100%);
 }
 
 .w3l-main-slider .header-hero-19 {
@@ -18871,7 +18874,8 @@ a.dropdown-item.active {
 }
 
 .w3l-main-slider h3.title-hero-19 {
-    font-size: 90px;
+    font-family: 'Caveat', cursive;
+    font-size: 80px;
     line-height: 100px;
     color: #ffffff;
     font-weight: 800;
@@ -19466,6 +19470,7 @@ p.vhny-para {
 }
 
 h2.inner-w3-title {
+   
     font-size: 56px;
     line-height: 56px;
     font-weight: 700;
