@@ -17882,7 +17882,7 @@ fieldset:disabled .btn {
     --bg-lightgrey: #f1f3f8;
     --layer: rgb(13 73 102 / 58%);
     --layer1: rgb(13 73 102 / 90%);
-    --footer-bg: #bbab79;
+    --footer-bg: #0d4966;
     --footer-bglight: #272d3a;
 }
 
@@ -20276,6 +20276,10 @@ section.footer-inner-main {
     font-size: 30px;
     line-height: 30px;
     margin-bottom: 20px;
+}
+
+.w3l-footer9 .footer-phny, .w3l-footer9 a, .w3l-footer9 p{
+    color: #bbab79!important;
 }
 
 .w3l-footer9 .footer-inner-main .sub-one-left h6,
