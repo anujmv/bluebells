@@ -37,6 +37,13 @@ module.exports = {
       inject: "body",
       filename: "contact.html", //relative to root of the application
     }),
+    new HtmlWebpackPlugin({
+      hash: true,
+      title: "Our Policy",
+      template: "./src/our-policy.html",
+      inject: "body",
+      filename: "our-policy.html", //relative to root of the application
+    }),
     new MiniCssExtractPlugin(),
   ],
   output: {

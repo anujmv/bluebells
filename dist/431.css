@@ -17804,6 +17804,11 @@ fieldset:disabled .btn {
     src: url(/bluebells/fonts/98f20b9ec79b2fee02a3.eot?#iefix) format("embedded-opentype"), url(/bluebells/fonts/6e63bd22128f27b83f22.woff2) format("woff2"), url(/bluebells/fonts/5f63cb7f47b6ea89773b.woff) format("woff"), url(/bluebells/fonts/330e879afe4a0abb35f2.ttf) format("truetype"), url(/bluebells/img/991c1c761fc31f9c3252.svg#fontawesome) format("svg");
 }
 
+@font-face {
+    font-family: 'Thea Amelia';
+    src: url(/bluebells/fonts/6f5f9c70c5393d904a37.otf);
+  }
+
 .fab {
     font-family: 'Font Awesome 5 Brands';
     font-weight: 400;
@@ -18872,7 +18877,7 @@ a.dropdown-item.active {
 }
 
 .w3l-main-slider h3.title-hero-19 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Thea Amelia', cursive;
     font-size: 80px;
     line-height: 100px;
     color: #ffffff;

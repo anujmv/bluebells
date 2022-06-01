@@ -17806,6 +17806,11 @@ fieldset:disabled .btn {
     src: url("../webfonts/fa-brands-400.eot?#iefix") format("embedded-opentype"), url("../webfonts/fa-brands-400.woff2") format("woff2"), url("../webfonts/fa-brands-400.woff") format("woff"), url("../webfonts/fa-brands-400.ttf") format("truetype"), url("../webfonts/fa-brands-400.svg#fontawesome") format("svg");
 }
 
+@font-face {
+    font-family: 'Thea Amelia';
+    src: url("../webfonts/TheaAmelia.otf");
+  }
+
 .fab {
     font-family: 'Font Awesome 5 Brands';
     font-weight: 400;
@@ -18874,7 +18879,7 @@ a.dropdown-item.active {
 }
 
 .w3l-main-slider h3.title-hero-19 {
-    font-family: 'Caveat', cursive;
+    font-family: 'Thea Amelia', cursive;
     font-size: 80px;
     line-height: 100px;
     color: #ffffff;
