@@ -1,6 +1,8 @@
 const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const Critters = require("critters-webpack-plugin");
+
 module.exports = {
   entry: ["./src/index.js"],
   // watch: true,
@@ -45,6 +47,13 @@ module.exports = {
       filename: "our-policy.html", //relative to root of the application
     }),
     new MiniCssExtractPlugin(),
+    new Critters({
+      // Outputs: <link rel="preload" onload="this.rel='stylesheet'">
+      preload: "swap",
+
+      // Don't inline critical font-face rules, but preload the font URLs:
+      preloadFonts: true,
+    }),
   ],
   output: {
     path: `${__dirname}/dist`,
