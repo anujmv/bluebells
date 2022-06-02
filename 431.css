@@ -19877,7 +19877,7 @@ a.call-style i {
     background-size: cover;
     z-index: 0;
     position: relative;
-    display: grid;
+    display: block;
     align-items: center;
     background-size: cover;
     z-index: 0;
