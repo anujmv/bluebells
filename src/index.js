@@ -21,7 +21,7 @@ $(document).ready(function () {
   $(".slick-testimonial").slick({
     dots: false,
     infinite: true,
-    slidesToShow: 4,
+    slidesToShow: 5,
     slidesToScroll: 1,
     autoplay: true,
     autoplaySpeed: 2000,
@@ -34,7 +34,9 @@ $(document).ready(function () {
           slidesToShow: 3,
           slidesToScroll: 3,
           infinite: true,
-          dots: true,
+          dots: false,
+          pauseOnHover: true,
+          pauseOnFocus: true,
         },
       },
       {
@@ -42,6 +44,9 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2,
+          dots: false,
+          pauseOnHover: true,
+          pauseOnFocus: true,
         },
       },
       {
@@ -49,6 +54,9 @@ $(document).ready(function () {
         settings: {
           slidesToShow: 1,
           slidesToScroll: 1,
+          dots: false,
+          pauseOnHover: true,
+          pauseOnFocus: true,
         },
       },
       // You can unslick at a given breakpoint now by adding:
