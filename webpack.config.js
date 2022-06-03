@@ -49,7 +49,7 @@ module.exports = {
     new MiniCssExtractPlugin(),
     new Critters({
       // Outputs: <link rel="preload" onload="this.rel='stylesheet'">
-      preload: "swap",
+      preload: "js-lazy",
 
       // Don't inline critical font-face rules, but preload the font URLs:
       preloadFonts: true,
