@@ -22,14 +22,16 @@ $(document).ready(function () {
   $(".slick-testimonial").slick({
     dots: false,
     infinite: true,
-    slidesToShow: 5,
-    slidesToScroll: 1,
+    slidesToShow: 4,
+    slidesToScroll: 4,
     autoplay: true,
     autoplaySpeed: 2000,
     pauseOnHover: true,
     pauseOnFocus: true,
     centerMode: true,
     arrows: false,
+    autoplay: false,
+
     responsive: [
       {
         breakpoint: 1024,
@@ -38,10 +40,12 @@ $(document).ready(function () {
           slidesToScroll: 3,
           infinite: true,
           dots: false,
+          autoplay: false,
           pauseOnHover: true,
           pauseOnFocus: true,
           centerMode: true,
           arrows: false,
+          // centerPadding: "40px",
         },
       },
       {
@@ -50,6 +54,7 @@ $(document).ready(function () {
           slidesToShow: 2,
           slidesToScroll: 2,
           dots: false,
+          autoplay: false,
           pauseOnHover: true,
           pauseOnFocus: true,
           centerMode: true,
@@ -60,11 +65,16 @@ $(document).ready(function () {
         breakpoint: 480,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
+
           dots: false,
+          autoplay: false,
           pauseOnHover: true,
           pauseOnFocus: true,
           centerMode: true,
+          arrows: false,
+
+          centerPadding: "40px",
+
           arrows: false,
         },
       },
@@ -73,6 +83,16 @@ $(document).ready(function () {
       // instead of a settings object
     ],
   });
+  $(".slick-testimonial").on(
+    "beforeChange",
+    function (event, slick, direction) {
+      $("#v1").get(0).pause();
+      $("#v2").get(0).pause();
+      $("#v3").get(0).pause();
+      $("#v4").get(0).pause();
+      $("#v5").get(0).pause();
+    }
+  );
 });
 
 $(window).on("scroll", function () {
