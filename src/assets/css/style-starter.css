@@ -20627,16 +20627,7 @@ section.footer-inner-main {
     height: 320px;
   }
 
-  .slick-testimonial video::before{
-      content:'';
-      position: absolute;
-      display: block;
-      background-color: rgba(0, 0, 0, 1);
-      height: 320px;
-      width: 180px;
-      z-index: 2;
-  }
-
+  
 
   
 
