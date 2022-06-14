@@ -20680,3 +20680,16 @@ section.footer-inner-main {
     border-radius: 50%;
     opacity: 0.9;
   }
+
+  .our-policy-ping-ajna p{
+      margin: 10px 0;
+  }
+
+  .our-policy-ping-ajna li{
+      list-style-type: circle;
+  }
+
+  .our-policy-ping-ajna ol li{
+      margin: 10px 0;
+      list-style-type: decimal;
+  }
