@@ -6,7 +6,7 @@ const Critters = require("critters-webpack-plugin");
 module.exports = {
   entry: ["./src/index.js"],
   // watch: true,
-  mode: "development",
+  mode: "production",
   devServer: {
     static: "./dist",
   },
