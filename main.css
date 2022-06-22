@@ -122,7 +122,7 @@
 /* Slider */
 .slick-loading .slick-list
 {
-    background: #fff url(/bluebells/img/fb6f3c230cb846e25247.gif) center center no-repeat;
+    background: #fff url(/img/fb6f3c230cb846e25247.gif) center center no-repeat;
 }
 
 /* Icons */
@@ -132,8 +132,8 @@
     font-weight: normal;
     font-style: normal;
 
-    src: url(/bluebells/fonts/a4e97f5a2a64f0ab1323.eot);
-    src: url(/bluebells/fonts/a4e97f5a2a64f0ab1323.eot?#iefix) format('embedded-opentype'), url(/bluebells/fonts/295183786cd8a1389865.woff) format('woff'), url(/bluebells/fonts/c94f7671dcc99dce43e2.ttf) format('truetype'), url(/bluebells/img/2630a3e3eab21c607e21.svg#slick) format('svg');
+    src: url(/fonts/a4e97f5a2a64f0ab1323.eot);
+    src: url(/fonts/a4e97f5a2a64f0ab1323.eot?#iefix) format('embedded-opentype'), url(/fonts/295183786cd8a1389865.woff) format('woff'), url(/fonts/c94f7671dcc99dce43e2.ttf) format('truetype'), url(/img/2630a3e3eab21c607e21.svg#slick) format('svg');
 }
 /* Arrows */
 .slick-prev,
