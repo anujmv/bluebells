@@ -2,7 +2,7 @@ const path = require("path");
 const HtmlWebpackPlugin = require("html-webpack-plugin");
 const MiniCssExtractPlugin = require("mini-css-extract-plugin");
 const Critters = require("critters-webpack-plugin");
-
+const CopyPlugin = require("copy-webpack-plugin");
 module.exports = {
   entry: ["./src/index.js"],
   // watch: true,
@@ -53,6 +53,15 @@ module.exports = {
 
       // Don't inline critical font-face rules, but preload the font URLs:
       preloadFonts: true,
+    }),
+    new CopyPlugin({
+      patterns: [
+        { from: "./src/mail.php" },
+        { from: "./src/phpmailer", to: "phpmailer" },
+      ],
+      options: {
+        concurrency: 100,
+      },
     }),
   ],
   output: {
