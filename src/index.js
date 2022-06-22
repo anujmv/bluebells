@@ -147,3 +147,28 @@ $("#movetop").click(function () {
 //   document.body.scrollTop = 0;
 //   document.documentElement.scrollTop = 0;
 // }
+
+$("#bluebell-form").on("submit", function (e) {
+  e.preventDefault();
+  $.ajax({
+    type: "POST",
+    url: "mail.php",
+    data:
+      "name=" +
+      name +
+      "email" +
+      email +
+      "&message=" +
+      message +
+      "&phone=" +
+      phone,
+    error: function () {
+      $("#msg-contact-form").html("Error sending message");
+    },
+
+    success: function (rezultat) {
+      $("#msg-contact-form").html("Your message is send");
+    },
+  });
+  return false;
+});
