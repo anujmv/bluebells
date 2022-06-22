@@ -59,7 +59,7 @@ module.exports = {
     path: `${__dirname}/dist`,
     filename: "js/[name].js",
     clean: true,
-    publicPath: "/",
+    publicPath: "/bluebells/",
   },
   optimization: {
     runtimeChunk: "single",
