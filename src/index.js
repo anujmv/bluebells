@@ -150,18 +150,11 @@ $("#movetop").click(function () {
 
 $("#bluebell-form").on("submit", function (e) {
   e.preventDefault();
+  var form = $(this);
   $.ajax({
     type: "POST",
     url: "mail.php",
-    data:
-      "name=" +
-      name +
-      "email" +
-      email +
-      "&message=" +
-      message +
-      "&phone=" +
-      phone,
+    data: form.serialize(),
     error: function () {
       $("#msg-contact-form").html("Error sending message");
     },
